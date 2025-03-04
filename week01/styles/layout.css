@@ -1,0 +1,4 @@
+body{
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
