@@ -1,4 +1,4 @@
-/* Base styles for the website */
+
 :root{
     margin: 1em;
     max-width: fit-content;
@@ -44,7 +44,7 @@ main{
     display: grid;
     grid-template-columns: 4fr 3fr;
     grid-gap: 5em;
-    align-items: ;
+    
 
 }
 section{
