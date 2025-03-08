@@ -49,8 +49,8 @@ main{
 }
 section{
     img{
-        width: auto;
-        height: 200px;
+        width: 200px;
+        height: auto;
     }
 }
 .container {
