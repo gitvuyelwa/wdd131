@@ -48,18 +48,17 @@ main{
     display: grid;
     grid-template-columns: 4fr 3fr;
     grid-gap: 5em;
-    
-
 }
 section{
     border: 1em solid #034c5d;
     text-align: center;
-    img{
-        width: 200px;
-        height: auto;
-    }
-
 }
+
+section img {
+    width: 200px;
+    height: auto;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
