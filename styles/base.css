@@ -1,11 +1,7 @@
 
 :root{
     margin: 1em;
-    max-width: fit-content;
-    border: #333;
-    
-
-    
+    max-width: fit-content;   
 }
 body {
     display: block;
@@ -50,8 +46,9 @@ main{
     grid-gap: 5em;
 }
 section{
-    border: 1em solid #034c5d;
+    border: 0.5em solid #034c5d;
     text-align: center;
+    
 }
 
 section img {
