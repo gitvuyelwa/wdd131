@@ -2,20 +2,24 @@
 :root{
     margin: 1em;
     max-width: fit-content;
+    border: #333;
+    
+
     
 }
 body {
-    margin: 0;
-    padding: 0;
+    display: block;
     font-family: "Roboto", sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1{
     margin: 0;
     padding: 0.5em 0;
     font-weight: normal;
+    text-align: center;
+    background-color: #3498db;
 }
 
 nav{
@@ -52,6 +56,9 @@ section{
         width: 200px;
         height: auto;
     }
+    border: 1em solid #034c5d;
+    text-align: center;
+
 }
 .container {
     width: 80%;
