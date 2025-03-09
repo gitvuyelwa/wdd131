@@ -52,12 +52,12 @@ main{
 
 }
 section{
+    border: 1em solid #034c5d;
+    text-align: center;
     img{
         width: 200px;
         height: auto;
     }
-    border: 1em solid #034c5d;
-    text-align: center;
 
 }
 .container {
