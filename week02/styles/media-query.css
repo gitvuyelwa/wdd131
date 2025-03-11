@@ -19,9 +19,6 @@ main{
 section{
     padding: 1rem;
     background-color: #fff;
-}
-
-selector{
     display: grid;
     align-items: center;
 }
