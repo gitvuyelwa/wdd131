@@ -8,7 +8,7 @@ body {
 nav{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center-right;
     background-color: black;
     color: white;
 }
@@ -19,22 +19,29 @@ a {
 nav a:hover{
     text-decoration: underline;
 }
-figure {
-    grid-template-columns: 1fr;
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+main{
+    max-width: 200px;
+    margin: 0 auto;
     display: grid;
-/*    flex-direction: row;*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+figure {
+    display: grid;
+   flex-direction: row;
     padding: 5px;
-    /*justify-content: center;*/
+    justify-content: center;
     text-align: center;
     margin: 10px auto;
 
 }
-.figure img{
-    width: 200px;
-    height: auto;
-    
-}
-  
+
 figcaption {
     background-color: #222;
     color: white;
@@ -43,13 +50,6 @@ figcaption {
     max-width: 210px;
     text-align: center;
 }
-
-
-main{
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 
 footer{
     text-align: center;
