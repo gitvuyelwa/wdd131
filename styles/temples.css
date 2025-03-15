@@ -1,0 +1,29 @@
+
+body {
+    display: block;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.figure{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat auto-fit, minmax(200px, 1fr);
+    grid-gap: 25px;
+    place-items: center;
+}
