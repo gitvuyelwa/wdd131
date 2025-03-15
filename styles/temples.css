@@ -1,6 +1,5 @@
 
 body {
-    display: block;
     align-items: center;
     font-family: "Roboto", sans-serif;
     background-color: #f4f4f4;
@@ -12,6 +11,10 @@ nav{
     align-items: center;
     background-color: black;
     color: white;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
 }
 nav a:hover{
     text-decoration: underline;
@@ -26,4 +29,10 @@ main{
     grid-template-columns: repeat, auto-fit, minmax(200px, 1fr);
     grid-gap: 25px;
     place-items: center;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
 }
