@@ -20,9 +20,29 @@ header{
 
 }
 
-img{
+picture img {
     width: 100%;
     height: 100%;
-    border-radius: 5px;
+    object-fit: cover;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin: 0;
+    background-color: rgb(2, 87, 2);
+    color: white;
+
+}
+
+section{
+    background-color: var(--place-large-background-color);
+    border: 1px solid var(--place-large-border-color);
+    border-radius: var(--place-large-border-radius);
     box-shadow: var(--place-large-box-shadow);
+    color: var(--place-large-color);
+    font-size: var(--place-large-font-size);
+    line-height: var(--place-large-line-height);
+    padding: var(--place-large-padding);
+    text-align: var(--place-large-text-align);
+    position: right;
 }
