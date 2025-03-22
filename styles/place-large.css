@@ -1,0 +1,28 @@
+:root{
+    --place-large-background-color: #f5f5f5;
+    --place-large-border-color: #e0e0e0;
+    --place-large-border-radius: 5px;
+    --place-large-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    --place-large-color: #333;
+    --place-large-font-size: 1.2rem;
+    --place-large-line-height: 1.5;
+    --place-large-padding: 20px;
+    --place-large-text-align: center;
+}
+
+header{
+    background-color: rgb(0, 174, 255);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: var(--place-large-box-shadow);
+}
