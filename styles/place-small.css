@@ -1,16 +1,45 @@
+::after{
+    --place-small: 1.5rem;
+    --place-small-padding: 10px;
+    --place-small-text-align: center;
+    --place-small-font-size: 1.5rem;
+    --place-small-font-weight: bold;
+    --place-small-color: black;
+    --place-small-border-color: var(--place-small-color);
+    --place-small-border-radius: 10px;
+    --place-small-box-shadow: 5px 5px 5px black;
+    --place-small-line-height: 1.5rem;
+    --place-small-color: black;
+}
 @media screen and (max-width: 600px) {
     .place-small {
-        section{
-            background-color: rgba(245, 245, 245, 0.6);
-            border: 1px solid var(--place-large-border-color);
-            border-radius: var(--place-large-border-radius);
-            box-shadow: var(--place-large-box-shadow);
-            color: var(--place-large-color);
-            font-size: var(--place-large-font-size);
-            line-height: var(--place-large-line-height);
-            padding: var(--place-large-padding);
-            text-align: var(--place-large-text-align);
-        }
-    
+        color: black;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .section{
+        position: relative;
+        background-color: rgba(245, 245, 245, 0.6);
+        border: 1px solid var(--place-small-border-color);
+        border-radius: var(--place-small-border-radius);
+        box-shadow: var(--place-small-box-shadow);
+        color: var(--place-small-color);
+        font-size: var(--place-small-font-size);
+        line-height: var(--place-small-line-height);
+        padding: var(--place-small-padding);
+        text-align: var(--place-small-text-align);
+    }
+    .div{
+        width: 150px;
+        height: 150px;
+        display: block;
+        right: 150px;
+        bottom: 150px;
+        float: right;
+        background-color: rgba(245, 245, 245, 0.6);
+        float: bottom;
+        bottom: 300px;
     }
 }
