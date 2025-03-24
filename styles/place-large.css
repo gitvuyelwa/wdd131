@@ -64,6 +64,10 @@ div{
     float: right;
     background-color: rgba(245, 245, 245, 0.6);;
 }
+div img{
+    width: 150px;
+    height: 150px;
+}
 
 footer{
     background-color: red;
