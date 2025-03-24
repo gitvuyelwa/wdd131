@@ -54,6 +54,18 @@ section{
     text-align: var(--place-large-text-align);
     position: right;
 }
+
+div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    display: block;
+    right: 150px;
+    bottom: 5px;
+    float: right-bottom;
+    background-color: rgba(245, 245, 245, 0.6);;
+}
+
 footer{
     background-color: red;
     color: black;
