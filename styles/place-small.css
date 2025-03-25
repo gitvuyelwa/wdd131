@@ -24,7 +24,6 @@
         background-color: rgba(245, 245, 245, 0.6);
         border: 1px solid var(--place-small-border-color);
         border-radius: var(--place-small-border-radius);
-        box-shadow: var(--place-small-box-shadow);
         color: var(--place-small-color);
         font-size: var(--place-small-font-size);
         line-height: var(--place-small-line-height);

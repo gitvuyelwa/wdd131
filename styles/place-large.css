@@ -46,7 +46,6 @@ section{
     background-color: rgba(245, 245, 245, 0.6);
     border: 1px solid var(--place-large-border-color);
     border-radius: var(--place-large-border-radius);
-    box-shadow: var(--place-large-box-shadow);
     color: var(--place-large-color);
     font-size: var(--place-large-font-size);
     line-height: var(--place-large-line-height);
