@@ -1,0 +1,14 @@
+:root{
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+div img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+        
+}
