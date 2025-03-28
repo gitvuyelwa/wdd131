@@ -28,28 +28,43 @@ main{
     max-width: 960px;
     padding: .5rem;
 }
-.container{
+div{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 25px;
     justify-content: center;
 }
+
 figure{
-    display: grid;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border:#333 1px solid;
+    border-radius: 0.5em;
+    max-width: 500px;
+    display: block;
+    
 }
-img{
-    width: 100%;
-    height: auto;
-    margin: .5rem;
+h3{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+div image {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
 }
 figcaption {
     color: black;
-    font-weight: bold;
     font: italic smaller sans-serif;
     padding: 5px;
-    max-width: 210px;
+    max-width: 500px;
     text-align: center;
 }
+
 
 footer{
     text-align: center;
