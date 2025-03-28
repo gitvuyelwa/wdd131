@@ -55,7 +55,7 @@ div image {
     /* display: block; */
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 50%;
 }
 figcaption {
     color: black;
