@@ -1,3 +1,14 @@
+
+let d = new Date();
+document.getElementById("currentYear").innerHTML = '&copy;${d.getFullYear()}';
+document.querySelector('#lastModified').textContent = 'Last Modification: ${docuemnt.lastModified}';
+
+const hambutton = document.querySelector('#hambutton');
+hambutton.addEventListener('click', () => {
+	mainnav.classList.toggle('show');
+	hambutton.classList.toggle('show');
+});
+
 const temples = [
     {
       templeName: "Aba Nigeria",
@@ -54,6 +65,59 @@ const temples = [
       area: 116642,
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+
     },
-    // Add more temple objects here...
-  ];
+    {
+      templeName: "Fort Lauderdale Florida",
+      location: "Fort Lauderdale, Florida, United States",
+      dedicated: "2014, May, 2",
+      area: 30500,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fort-lauderdale-florida/400x250/fort-lauderdale-temple-exterior-2.jpg"
+    },
+    {
+      templeName: "Orlando Florida",
+      location: "Orlando, Florida",
+      dedicated: "1994, October, 9",
+      area: 70000,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/orlando-florida/400x250/orlando-temple-2.jpg"
+    },
+    {
+      templeName: "Johannesburg South Africa",
+      location: "Johannesburg, South Africa",
+      dedicated: "1985, August, 24",
+      area: 19184,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/johannesburg-south-africa/400x250/johannesburg-temple-2.jpg"
+    }
+    ];
+
+createTempleCard();
+
+function createTempleCard() {
+  temples.forEach(temple=> {
+    let card = document.createElement("section");
+    let name = document.createElement("h3");
+    let location = document.createElement("p");
+    let dedicated = document.createElement("p");
+    let area = document.createElement("p");
+    let img = document.createElement("img");
+
+    name.textContent = temple.templeName;
+    location.innerHTML = '<span class="label">Location: </span> ${temple.location}';
+    dedicated.innerHTML = '<span class="label">Dedicated: </span> ${temple.dedicated}';
+    area.innerHTML = '<span class="label">Size: </span> ${temple.area} sq ft';
+    img.setAttribute("src", temple.imageUrl);
+    img.setAttribute("alt", '${temple.templeName} Temple');
+    img.setAttribute("loading", "lazy");
+
+    card.appendChild(name);
+    card.appendChild(location);
+    card.appendChild(dedicated);
+    card.appendChild(area);
+    card.appendChild(img);
+
+    document.querySelector(".res-grid").appendChild(card);
+  });
+}
