@@ -73,7 +73,7 @@ const temples = [
       dedicated: "2014, May, 2",
       area: 30500,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fort-lauderdale-florida/400x250/fort-lauderdale-temple-exterior-2.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fort-lauderdale-florida/2018/800x500/02-Fort-Lauderdale-Temple-1499446.jpg"
     },
     {
       templeName: "Orlando Florida",
@@ -81,7 +81,7 @@ const temples = [
       dedicated: "1994, October, 9",
       area: 70000,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/orlando-florida/400x250/orlando-temple-2.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/orlando-florida/800x500/orlando-temple-lds-818549-wallpaper.jpg.jpg"
     },
     {
       templeName: "Johannesburg South Africa",
@@ -89,35 +89,36 @@ const temples = [
       dedicated: "1985, August, 24",
       area: 19184,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/johannesburg-south-africa/400x250/johannesburg-temple-2.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/johannesburg-south-africa/800x500/johannesburg-south-africa-temple-lds-83166-wallpaper.jpg"
     }
     ];
 
-createTempleCard();
+// createTempleCard();
 
-function createTempleCard() {
-  temples.forEach(temple=> {
-    let card = document.createElement("section");
-    let name = document.createElement("h3");
-    let location = document.createElement("p");
-    let dedicated = document.createElement("p");
-    let area = document.createElement("p");
-    let img = document.createElement("img");
+// function createTempleCard(temples) {
+//   document.querySelector(".res-grid").innerHTML ="";
+//   temples.forEach(temple => {
+//     let card = document.createElement("section");
+//     let name = document.createElement("h3");
+//     let location = document.createElement("p");
+//     let dedicated = document.createElement("p");
+//     let area = document.createElement("p");
+//     let img = document.createElement("img");
 
-    name.textContent = temple.templeName;
-    location.innerHTML = '<span class="label">Location: </span> ${temple.location}';
-    dedicated.innerHTML = '<span class="label">Dedicated: </span> ${temple.dedicated}';
-    area.innerHTML = '<span class="label">Size: </span> ${temple.area} sq ft';
-    img.setAttribute("src", temple.imageUrl);
-    img.setAttribute("alt", '${temple.templeName} Temple');
-    img.setAttribute("loading", "lazy");
+//     name.textContent = temple.templeName;
+//     location.innerHTML = `<span class="label">Location: </span>${temple.location}`;
+//     dedicated.innerHTML = `<span class="label">Dedicated: </span>${temple.dedicated}`;
+//     area.innerHTML = `<span class="label">Size: </span>${temple.area} sq ft`;
+//     img.setAttribute("src", temple.imageUrl);
+//     img.setAttribute("alt", `${temple.templeName} Temple`);
+//     img.setAttribute("loading", "lazy");
 
-    card.appendChild(name);
-    card.appendChild(location);
-    card.appendChild(dedicated);
-    card.appendChild(area);
-    card.appendChild(img);
+//     card.appendChild(name);
+//     card.appendChild(location);
+//     card.appendChild(dedicated);
+//     card.appendChild(area);
+//     card.appendChild(img);
 
-    document.querySelector(".res-grid").appendChild(card);
-  });
-}
+//     document.querySelector(".res-grid").appendChild(card);
+//   });
+// }
