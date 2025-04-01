@@ -67,6 +67,9 @@ div img{
     width: 150px;
     height: 150px;
 }
+::after{
+    text-align: center;
+}
 
 footer{
     background-color: red;
