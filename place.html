@@ -38,13 +38,17 @@
         <div>
             <h2>Weather</h2>
             <img src="images/weather.svg" alt="South African weather">
-            <span id="currenttemp">Temperature: 50</span>
-            <span id="windchill"></span>
+            <span id="temp"></span>
+            <span id="speed"></span>
         </div>
     </main>
     <footer>
         <p> &copy;<span id ="curentyear"> 2025</span> | Vuyelwa Macanda | South Africa</p>
-        <span id="lastModified">Last Modified: </span>
+        <p>Last Modified: <span id="lastModif"></span></p>
+        <script>
+            const lastModified = document.lastModified;
+            document.getElementById("lastModif").textContent = lastModified;
+        </script>
     </footer>
 </body>
 </html>
