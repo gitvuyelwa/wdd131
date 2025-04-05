@@ -55,8 +55,12 @@
         </div>
     </main>
     <footer>
-        <p>&copy;<span id="currentyear"> 2025</span> | Vuyelwa Macanda | South Africa</p>
-        <p><span id="lastModified"></span></p>
+        <p> &copy;<span id ="curentyear"> 2025</span> | Vuyelwa Macanda | South Africa</p>
+        <p>Last Modified: <span id="lastModif"></span></p>
+        <script>
+            const lastModified = document.lastModified;
+            document.getElementById("lastModif").textContent = lastModified;
+        </script>
     </footer>
 </body>
 </html>
