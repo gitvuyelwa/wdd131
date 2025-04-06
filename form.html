@@ -13,23 +13,21 @@
     <script src="scripts/form.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Product Review</h1>
+    <header>                                           
+        <h1>All Things Fitness</h1>
     </header>
     <main>
         <h2>Product Review Form</h2>
         <form action="review.html" method="get">
             <fieldset>
-            <label>Product Name</label>
-                <select name="Choose a product" id="product" name="product" required>
-                    <option value="">Please Select</option>
-                    <option value="21 day Challenge">21 day Challenge</option>
-                    <option value="75 day Challenge">75 day Challenge</option>
-                    <option value="Calisthenics">Calisthenics Challenge</option>
-                    <option value="Yoga">Yoga</option>
-                    <option value="Body Build">Body Build</option>
-                    <option value="Crossfit">Crossfit</option>
-                    <option value="Pilates">Pilates</option>
+            <div>Product Name</div>
+                <select name="Choose a product" required>
+                    <option value="" id="product" name="product" >Please Select</option>
+                    <option value="flux capacitor" id="fc-1888">flux capacitor</option>
+                    <option value="power laces" id="fc-2050">power laces</option>
+                    <option value="time circuits" id="fs-1987">time circuits</option>
+                    <option value="low voltage reactor" id="ac-2000">low voltage reactor</option>
+                    <option value="warp equalizer" id="jj-1969">warp equalizer</option>
                 </select>
             </fieldset>
             <fieldset>
@@ -51,11 +49,11 @@
                 <label><input type="checkbox" name="Ease of Use" value="yes">Ease of Use</label>
                 <label><input type="checkbox" name="Performance" value="yes">Performance</label>
                 <label><input type="checkbox" name="Design" value="yes">Design</label>
-            </fieldset> 
+            </fieldset>
             <fieldset>
                 <div>Written Review</div>
                 <label><input type="textarea" name="review" id="review"></label>
-                </fieldset>
+            </fieldset>
             <fieldset>
                 <div>Your name</div>
                 <label><input type="text" name="name" id="name" placeholder="Write your name here..."></label>
