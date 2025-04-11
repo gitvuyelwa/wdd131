@@ -24,22 +24,37 @@ nav{
     text-align: center;
     font-size: 1.5em;
 }
+.hero{
+    position: relative;
+}
 
-h2{
+.hero h2{
     text-align: center;
     font-size: 2em;
     color: white;
     float: center;
-    text-justify: auto;
+    position: absolute;
+    left: 100px;
 
 
 }
-img{
+.hero img{
     width: 100%;
     height: auto;
     border-radius: 10px;
-    position: relative;
     
+}
+.hero article{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 150px;
+    left: 100px;
+    background-color: rgba(245, 245, 245, 0.6);
+    font-size: var(--place-large-font-size);
+    line-height: var(--place-large-line-height);
+    padding: var(--place-large-padding);
+    text-align: var(--place-large-text-align);
 }
 footer{
     background-color: black;
