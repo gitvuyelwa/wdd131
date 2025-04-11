@@ -25,6 +25,22 @@ nav{
     font-size: 1.5em;
 }
 
+h2{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    float: center;
+    text-justify: auto;
+
+
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    
+}
 footer{
     background-color: black;
     color: white;
@@ -32,4 +48,4 @@ footer{
     padding: 10px;
     border-radius: 10px;
     font-size: 1.5em;
-}l
+}
