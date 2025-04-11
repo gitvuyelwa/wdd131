@@ -1,5 +1,5 @@
 :root{
-    background-color: lightgrey;
+    background-color: rgb(180, 176, 176);
     color: black;
     font-family: Arial, sans-serif;
     font-size: 1.2em;
@@ -32,4 +32,4 @@ footer{
     padding: 10px;
     border-radius: 10px;
     font-size: 1.5em;
-}
+}l
