@@ -48,8 +48,8 @@ nav{
     position: absolute;
     width: 500px;
     height: auto;
-    top: 150px;
-    left: 100px;
+    top: 100px;
+    left: 150px;
     background-color: rgba(245, 245, 245, 0.6);
     font-size: var(--place-large-font-size);
     line-height: var(--place-large-line-height);
@@ -65,6 +65,7 @@ fieldset{
     color: black;
     font-size: 1.2em;
 }
+l
 footer{
     background-color: black;
     color: white;
