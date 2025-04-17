@@ -1,5 +1,5 @@
 :root{
-    background-color: rgb(234, 231, 231);
+    background-color: lightgray;
     color: black;
     font-family: Arial, sans-serif;
     font-size: 1.2em;
@@ -65,7 +65,12 @@ fieldset{
     color: black;
     font-size: 1.2em;
 }
-l
+h3 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2em;
+}
+
 footer{
     background-color: black;
     color: white;

@@ -14,6 +14,10 @@
 <body>
     <header>                                           
         <h1>Female Fitness</h1>
+        <nav>
+            <a href="calisthenics.html">Calisthenics</a>
+            <a href="contact-form.html">Contact Us</a>
+        </nav>
     </header>
     <main>
         <h2>Product Review Form</h2>
@@ -54,5 +58,13 @@
             </fieldset>
         </form>
     </main>
+    <footer>
+        <p> &copy;<span id ="curentyear"> 2025</span> | Vuyelwa Macanda | South Africa</p>
+        <p>Last Modified: <span id="lastModif"></span></p>
+        <script>
+            const lastModified = document.lastModified;
+            document.getElementById("lastModif").textContent = lastModified;
+        </script>
+    </footer>
 </body>
 </html>
