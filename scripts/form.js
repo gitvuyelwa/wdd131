@@ -25,3 +25,4 @@ const products = [
       averagerating: 5.0
     }
   ];
+localStorage.setItem("products", JSON.stringify(products));
