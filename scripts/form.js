@@ -25,4 +25,8 @@ const products = [
       averagerating: 5.0
     }
   ];
-localStorage.setItem("products", JSON.stringify(products));
+function display(){
+  localStorage.setItem("products", JSON.stringify(products));
+  review.html=localStorage.getItem("products");
+  review.innerHTML = review.html;
+}
